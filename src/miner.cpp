@@ -604,13 +604,13 @@ bool BusyBees(const Consensus::Params& consensusParams) {
             hiveBlocksAtTip++;
         }
         if (hiveBlocksAtTip >= consensusParams.maxConsecutiveHiveBlocks) {
-            LogPrintf("BusyBees: Skipping hive check (max Hive blocks without a POW block reached)\n");
+            //LogPrintf("BusyBees: Skipping hive check (max Hive blocks without a POW block reached)\n");
             return false;
         }
     } else {
         // Check previous block wasn't hivemined
         if (pindexPrev->GetBlockHeader().IsHiveMined(consensusParams)) {
-            LogPrintf("BusyBees: Skipping hive check (Hive block must follow a POW block)\n");
+            //LogPrintf("BusyBees: Skipping hive check (Hive block must follow a POW block)\n");
             return false;
         }
     }
