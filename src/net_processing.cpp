@@ -1589,8 +1589,8 @@ bool static ProcessMessage(CNode* pfrom, const std::string& strCommand, CDataStr
                 return false;
             }
         }
-
-        if (nVersion < MIN_PEER_PROTO_VERSION)
+					
+        if ((nVersion < MIN_PEER_PROTO_VERSION) && (chainActive.Tip()->nHeight >= 2100000))
         {
             // disconnect from peers older than this proto version
             LogPrint(BCLog::NET, "peer=%d using obsolete version %i; disconnecting\n", pfrom->GetId(), nVersion);

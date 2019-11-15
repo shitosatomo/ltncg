@@ -76,7 +76,7 @@ class CMainParams : public CChainParams {
 public:
     CMainParams() {
         strNetworkID = "main";
-        consensus.nSubsidyHalvingInterval = 2100000;
+        consensus.nSubsidyHalvingInterval = 8400000;
         consensus.BIP16Height = 0; // enforce BIP16 at start !
         consensus.BIP34Height = 71000000; // never happens
         consensus.BIP34Hash = uint256S("fa09d204a83a768ed5a7c8d441fa62f2043abf420cff1226c7b4329aeb9d51cf");
@@ -172,7 +172,7 @@ public:
         consensus.nMinimumChainWork = uint256S("0x000000000000000000000000000000000000000000000000006a553f86ecbfda");  // LightningCash Gold : block 310001
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0xd7f8772248c2a061c8bc28fe2dfee89dd70a7cbfd1c6ecb44b73e5efd993f490"); // LightningCash Gold: block 309999
+        consensus.defaultAssumeValid = uint256S("0xa9ff7a5f06b07650d6ebce31c6941979621acd6e686af2c2e8bd34a1015dbd8f"); // LightningCash Gold: block 1961113
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -215,6 +215,7 @@ public:
             {
                 {  0, uint256S("0xa1d8b56639865905eef9205e148bad0c6a4b2026b1753c76558bb735c3e9735c")},
                 {  310001, uint256S("0x5d6c2450c49e4856bcfb9a5bd8668cad06fc5daecfe9fb617847c0776e5a7e8e")},
+                {  1961113, uint256S("0xa9ff7a5f06b07650d6ebce31c6941979621acd6e686af2c2e8bd34a1015dbd8f")},
             }
         };
 
