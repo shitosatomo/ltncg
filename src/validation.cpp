@@ -3046,7 +3046,6 @@ static bool CheckBlockHeader(const CBlockHeader& block, CValidationState& state,
     }
 
     // Skip headers validation until we're close to chaintip
-    if (Params().NetworkIDString() == CBaseChainParams::MAIN)
       if (nHeight < SKIP_BLOCKHEADER_POW)
         return true;
     
@@ -3084,6 +3083,9 @@ bool CheckBlock(const CBlock& block, CValidationState& state, const Consensus::P
 
     // LightningCash Gold: Hive: Check Hive proof
     if (block.IsHiveMined(consensusParams)) {
+
+	if ((chainActive.Tip()->nHeight) < SKIP_BLOCKHEADER_POW)
+		return true;
 
 	if ((chainActive.Tip()->nHeight) >= nAdjustFork) {
 		if (!CheckHiveProof3(&block, consensusParams))
