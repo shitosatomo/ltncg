@@ -4,7 +4,7 @@
 What is LightningCash-Gold ?
 ----------------------
 
-Lightning Cash Gold is a coin based on Yespower POW algorithm, including DarkGravityWave ( difficulty changes for every block ) and possible CURRENT block difficulty change over time to protect against high network hash variation and long stale tip. For full details, please visit our website at https://lightningcashgold.com . Compiled binary releases are available on LightningCash-Gold's github.
+Lightning Cash Gold is a coin based on Yespower POW algorithm, including DarkGravityWave ( difficulty changes for every block ) and possible CURRENT block difficulty change over time to protect against high network hash variation and long stale tip. For full details, please visit our website at http://lightningcash.gold . Compiled binary releases are available on MerlinMagic2018 or shadow-42's github.
 
 Lightning Cash Gold Core is the full node software that makes up the backbone of the LTNCG network.
 
@@ -32,23 +32,19 @@ Characteristics
 
 - Changed famous NOMP ( node open mining portal ) pool software to include possible CURRENT block difficulty change and send new work to miners if so.
 
-NOMP's node-stratum-pool module adapted code : 
+- 5 seconds block time.
 
-		https://github.com/Lightningcash-dev/node-stratum-pool
-
-- 6.6 seconds block time.
-
-- Number of confirmations needed for a transaction : 6, so a transaction is confirmed on average in 39.6 seconds only !!! 
+- Number of confirmations needed for a transaction : 6, so a transaction is confirmed  in 30 seconds only !!! 
 
 - Premine : 2 200 000 coins, barely above 1 % of max supply
 
-- Block Reward : 50 LightningCash - halved every 2 100 000 blocks
+- Block Reward : 5 LightningCash - halved every 8 400 000 blocks
 
-- Synchronising the wallet takes about 25 minutes with a 4 MB/s download speed.
+- Synchronising the wallet takes about 1 hour with a normal download speed.
 
 
 
-LightningCash Gold is based on LitecoinCash Core's open source code.
+LightningCash Gold is based on LitecoinCash Core, Litecoin Core and Bitcoin Core's open source codes.
 LightningCash Gold is an independant coin and is not associated in any way with LitecoinCash.
 
 
