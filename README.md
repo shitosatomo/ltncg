@@ -7,25 +7,52 @@
 What is LightningCash-Gold ?
 ----------------------
 
-Lightning Cash Gold is a coin based on Yespower POW algorithm, including DarkGravityWave ( difficulty changes for every block ) and possible CURRENT block difficulty change over time to protect against high network hash variation and long stale tip. For full details, please visit our website at http://lightningcash.gold . Compiled binary releases are available on MerlinMagic2018 or shadow-42's github.
+Lightning Cash Gold is a coin based on Yespower POW algorithm, including DarkGravityWave ( difficulty changes for every block ) and possible CURRENT block difficulty change over time to protect against high network hash variation and long stale tip. For full details, please visit the websites at https://lightningcash.gold or https://ltncg.com . Compiled binary releases are available on MerlinMagic2018 or shadow-42's github.
 
 Lightning Cash Gold Core is the full node software that makes up the backbone of the LTNCG network.
 
 
-Discord Channel : https://discord.gg/bzcQ8ZM
+----------->  Official Discord Channel : https://discord.gg/bzcQ8ZM  <------------ join the community now !
+
+Websites : https://lightningcash.gold   https://ltncg.com/
+
+Twitter : https://www.twitter.com/LTNCG 
+
+Explorers :  https://explorer.ltncg.com    https://explorer.lightningcash.gold
+
+Paper wallet : https://wallet.lightningcash.gold/?currency=lightningcash-gold
+
+Main mining pools : https://pool.lightningcash.gold/   http://hashpex.com/
+
+Mining softwares : https://github.com/rplant8/cpuminer-opt-rplant/releases
+                   https://github.com/RickillerZ/cpuminer-RKZ/releases (optimised miner, windows binaries)
+                   https://github.com/MerlinMagic2018/cpuminer-RKZ/releases/tag/V4.2b (windows / linux binaries)
+         
+Mining Pools Stats : https://miningpoolstats.stream/lightningcashgold
+
+Live discord stream on twitch.tv : https://www.twitch.tv/lightningcashgold
+
+Exchanges : https://www.unnamed.exchange/CoinInfo?id=LTNCG  ( https://unnamed.exchange )
+            https://help.delion.online/lightningcash-gold-ltncg/  ( https://dex.delion.online/ )
 
 
 
 
-
-
-Characteristics
+Main Characteristics
 ---------------------------------------------------------------------------
 
 
+- Genesis and launch date : March 5th 2019
+
+- Current block height ( December 3rd 2019 ) : 2 281 247
+
+- Original bitcointalk ANN : https://bitcointalk.org/index.php?topic=5117428
+
+- 5 seconds block time ( fastest bitcoin-based cryptocurrency on the market )
+
 - Hash Algorithm : YespowerLTNCG POW algorithm    ( CPU only )
 
-( With the addition of modified Dash's DarkGravityWave v3 algorithm, that changes difficulty every block, and progressively lowers difficulty if long stale tips happens. Tested and fully working !!)
+( With the addition of a modified DarkGravityWave v3 algorithm, that changes difficulty every block, AND progressively lowers difficulty if long stale tips happens. Tested and fully working !!)
 
 - The Hive : A " hodl and profit " mining system accessible to everyone, that works side by side with POW mining, invented by  LitecoinCash's developers !!
 
@@ -33,9 +60,7 @@ Characteristics
 
 - Difficulty adjusted every block and possibly in CURRENT block if a long network stale tip happens !! This protects LightningCash-Gold from high hash variations and " high hash attacks " , that happens frequently for new coins and kills them by making the mining difficulty too high for the " normal " network's hash rate. 
 
-- Changed famous NOMP ( node open mining portal ) pool software to include possible CURRENT block difficulty change and send new work to miners if so.
-
-- 5 seconds block time.
+- Changed famous NOMP and zny-nomp ( node open mining portal ) pool software to include possible CURRENT block difficulty change and send new work to miners if so.
 
 - Number of confirmations needed for a transaction : 6, so a transaction is confirmed  in 30 seconds only !!! 
 
@@ -48,7 +73,7 @@ Characteristics
 
 
 LightningCash Gold is based on LitecoinCash Core, Litecoin Core and Bitcoin Core's open source codes.
-LightningCash Gold is an independant coin and is not associated in any way with LitecoinCash.
+LightningCash Gold is an independant coin and is not associated to any other cryptocurrency.
 
 
 License
@@ -61,12 +86,12 @@ information or see https://opensource.org/licenses/MIT.
 Development Process
 -------------------
 
-You can fork LitecoinCash-Gold github's repository, tweak the code and suggest pull request if you have bug fixes or improvements to propose.
+You can fork LitecoinCash-Gold github's repository ( https://github.com/shadow-42/lightningcash-gold ), tweak the code and suggest pull request if you have bug fixes or improvements to propose. Any contribution is greatly appreciated.
 
 Testing
 -------
 
-For now, testing is done privately before releasing new wallet's versions.
+For now, testing is done privately before releasing a new wallet's versions.
 
 Translations
 ------------
