@@ -169,10 +169,10 @@ public:
 	consensus.remvariableForkBlock = 118956;
         
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x000000000000000000000000000000000000000000000000006a553f86ecbfda");  // LightningCash Gold : block 310001
+        consensus.nMinimumChainWork = uint256S("0x000000000000000000000000000000000000000000000000006a7e621c88d29d");  // LightningCash Gold : block 310001
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0xa9ff7a5f06b07650d6ebce31c6941979621acd6e686af2c2e8bd34a1015dbd8f"); // LightningCash Gold: block 1961113
+        consensus.defaultAssumeValid = uint256S("0x22b486f48f3a3fd50d73b26d4b110c8580e3ce534cf244a00ab8a1359f069dc6"); // LightningCash Gold: block 2477899
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -215,7 +215,8 @@ public:
             {
                 {  0, uint256S("0xa1d8b56639865905eef9205e148bad0c6a4b2026b1753c76558bb735c3e9735c")},
                 {  310001, uint256S("0x5d6c2450c49e4856bcfb9a5bd8668cad06fc5daecfe9fb617847c0776e5a7e8e")},
-                {  1961113, uint256S("0xa9ff7a5f06b07650d6ebce31c6941979621acd6e686af2c2e8bd34a1015dbd8f")},
+                {  1961113, uint256S("0xa9ff7a5f06b07650d6ebce31c6941979621acd6e686af2c2e8bd34a1015dbd8f")},                
+		{  2477899, uint256S("0x22b486f48f3a3fd50d73b26d4b110c8580e3ce534cf244a00ab8a1359f069dc6")}
             }
         };
 
